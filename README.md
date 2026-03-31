@@ -1,10 +1,10 @@
-# 📡 STM32 Doppler Radar Speed Measurement
+# STM32 Doppler Radar Speed Measurement
 
 Real-time speed measurement system using a 24 GHz Doppler radar, designed to measure the velocity of a hockey puck.
 
 The system combines RF hardware, analog signal conditioning, and digital signal processing on a microcontroller to estimate object velocity from Doppler frequency shifts.
 
-## 🚀 Overview
+## Overview
 
 This project implements a complete Doppler radar measurement pipeline:
 
@@ -16,7 +16,7 @@ This project implements a complete Doppler radar measurement pipeline:
 
 The system was designed to measure puck speeds up to **200 km/h** with high accuracy. 
 
-## ⚙️ System Architecture
+## System Architecture
 
 ### Hardware
 
@@ -39,7 +39,7 @@ The software processes the digitized I/Q signals and estimates object speed by:
 4. Finding the dominant Doppler frequency
 5. Calculating the corresponding velocity
 
-## 🎯 Project Goals
+## Project Goals
 
 The main requirements of the system were:
 
@@ -51,7 +51,7 @@ The main requirements of the system were:
 - Support connectivity to share data with external devices
 - Explore the use of a **3D-printed dielectric lens** for focusing the radar signal :contentReference[oaicite:4]{index=4}
 
-## 🖥️ User Interface
+## User Interface
 
 The user interface concept includes:
 
@@ -62,7 +62,7 @@ The user interface concept includes:
 
 The report also describes possible extensions such as Bluetooth or cable-based data transfer for later analysis. :contentReference[oaicite:5]{index=5}
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Embedded C/C++**
 - **STM32L476 Discovery**
@@ -70,13 +70,13 @@ The report also describes possible extensions such as Bluetooth or cable-based d
 - **FFT-based signal processing**
 - **Analog filter and amplifier design**
 
-## 📄 Documentation
+## Documentation
 
 A concept design report for the project is included in this repository:
 
 - `ConceptDesignReport.pdf`
 
-## 📌 Notes
+## Notes
 
 This project was developed in the context of an engineering course, with a strong focus on combining:
 
