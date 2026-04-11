@@ -20,9 +20,9 @@ The system was designed to measure puck speeds up to **200 km/h** with high accu
 
 ### Hardware
 
-- **Radar module:** RFbeam K-LC5 (24 GHz)
-- **Microcontroller:** STM32L476 Discovery board
-- **Analog front-end:**
+- Radar module: RFbeam K-LC5 (24 GHz)
+- Microcontroller: STM32L476 Discovery board
+- Analog front-end:
   - High-pass filter for DC removal
   - Amplifier with a gain of about 1000
   - Band-pass filtering for the expected Doppler range
@@ -64,11 +64,11 @@ The report also describes possible extensions such as Bluetooth or cable-based d
 
 ## Tech Stack
 
-- **Embedded C/C++**
-- **STM32L476 Discovery**
-- **24 GHz RF Doppler radar**
-- **FFT-based signal processing**
-- **Analog filter and amplifier design**
+- Embedded C/C++
+- STM32L476 Discovery
+- 24 GHz RF Doppler radar
+- FFT-based signal processing
+- Analog filter and amplifier design
 
 ## Documentation
 
