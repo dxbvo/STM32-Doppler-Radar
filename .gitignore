@@ -11,6 +11,9 @@ Firmware/Debug/
 Firmware/html/
 Firmware/latex/
 
+# Others
+Video/
+
 # VS Code
 .vscode/
 
